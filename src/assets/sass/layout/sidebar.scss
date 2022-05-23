@@ -1,0 +1,111 @@
+@import "../variable/_var.scss";
+
+.aside {
+    height: 100%;
+    position: relative;
+}
+
+.aside-body {
+    padding: 1.5rem 1rem;
+    position: sticky;
+    top: 0;
+
+    &__img {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        img {
+            border-radius: $border-radius-lg;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__title {
+        font-size: 1.4rem;
+        color: $color-title;
+        text-align: center;
+        font-weight: bolder;
+        cursor: default;
+    }
+
+    &__jobSide {
+        background-color: #e9edf0;
+        color: $color-title;
+        text-align: center;
+        margin-top: 1.5rem;
+        padding: .65rem 0.5rem;
+        font-size: $font-size;
+        border-radius: $border-radius-lg;
+        @media (max-width: 991.98px) { 
+            padding: .65rem 1.5rem;
+        }
+    }
+
+    &__socialList {
+        margin-top: 1.5rem;
+        text-align: center;
+
+        &_item {
+            padding: 0 .3rem !important;
+            font-size: .4rem !important;
+            color: rgba($color: #000000, $alpha: .8) !important;
+        }
+    }
+
+    &__personalData {
+        list-style: none;
+        margin: 0;
+        padding: 0 1rem 0 0;
+        margin-top: 2rem;
+        @media (max-width: 991.98px) { 
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        &_item {
+            font-size: $font-size;
+            margin-top: 1rem;
+            @media (max-width: 991.98px) { 
+                margin: 0 .5rem;
+                text-align: center;
+                .text{
+                    display: block;
+                    font-size: .7rem;
+                }
+            }
+            .text{
+                color: rgba(0, 0, 0, 0.85) !important;
+                margin-left: .3rem;
+            }
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        & {
+            position: relative;
+        }
+
+        &__title,
+        &__socialList,
+        &__personalData {
+            width: 100%;
+        }
+
+        &__img {
+            display: flex;
+            justify-content: center;
+
+            img {
+                height: 280px;
+                width: 280px;
+            }
+        }
+
+        &__content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+}

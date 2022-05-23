@@ -1,0 +1,74 @@
+@import "../variable/_var.scss";
+
+.skill {
+    &__text {
+        font-size: $font-size;
+        margin-bottom: 2rem;
+    }
+
+    &-item {
+        border: 2px solid #f5f8f9;
+        border-radius: $border-radius-sm;
+        padding: 1rem;
+        height: 100%;
+        &__header {
+            align-items: center;
+            display: flex;
+            margin-bottom: 1rem;
+            p {
+                margin: 0;
+                font-size: $font-size-sm;
+                font-weight: 500;
+            }
+        }
+
+        &__img {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 1rem;
+            border-radius: $border-radius-md;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        &__text {
+            font-size: .91rem;
+            line-height: 1.8;
+            color: $color-text;
+        }
+
+        &__level{
+            font-size: $font-size;
+        }
+    }
+}
+
+.icon-yellow {
+    background-color: #fff4e4;
+}
+
+.icon-blue {
+    background-color: #e9f9ff;
+}
+
+.icon-purple {
+    background-color: #f4f3ff;
+}
+
+.icon-pink {
+    background-color: #fff5f6;
+}
+
+.icon-green {
+    background-color: #41b88340
+}
+
+.icon-pink2 {
+    background-color: #E2A8C540;
+}

@@ -1,0 +1,28 @@
+@import "../variable/_var.scss";
+
+.about-me{
+    &__text{
+        font-size: .95rem;
+        line-height: $line-height-text;
+    }
+    &__item{
+        text-align: center;
+        padding: 2rem 0;
+        border: 2px solid #f5f8f9;
+        border-radius: $border-radius-sm;
+        &_icon{
+            width: 60px;
+            height: 60px;
+            margin-bottom: 1rem;
+        }
+        &_title{
+            color: $color-title;
+            margin-bottom: 1rem !important;
+            font-weight: bolder;
+        }
+        &_text{
+            font-size: $font-size;
+            color: $color-title;
+        }
+    }
+}

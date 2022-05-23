@@ -1,0 +1,39 @@
+@import "../variable/_var.scss";
+
+.form-contact{
+    &__text{
+        font-size: $font-size;
+        margin-bottom: 4rem;
+        a{
+            color: $color-blue-light;
+        }
+    }
+    &__input_group{
+    position: relative;
+    background-color: $color-white;
+    margin-bottom: 2rem;
+        .form-control{
+            position: relative;
+            &::placeholder{
+                color: $color-gray-light;
+            }
+            z-index: 10;
+        }
+    }
+    &__input_group.active{
+        .form-contact__text_alert{
+            bottom: -2.3rem;
+        }
+        .form-control{
+            border-color: $color-red;
+        }
+    }
+    &__text_alert{
+        color: $color-red;
+        font-size: $font-size;
+        position: absolute;
+        bottom: .1rem;
+        z-index: 9;
+        transition: all 0.2s linear;
+    }
+}
