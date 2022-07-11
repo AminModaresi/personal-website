@@ -11,9 +11,7 @@
                 <li class="navbar-list__item">
                     <router-link @click="closeMobileMenu" to="/contact" class="navbar-list__link">تماس با من</router-link>
                 </li>
-                <li class="navbar-list__item">
-                    <router-link @click="closeMobileMenu" to="/blog" class="navbar-list__link">بلاگ</router-link>
-                </li>
+
             </ul>
         </div>
     </nav>
