@@ -10,13 +10,6 @@ const router = createRouter({
     { path: "/:notFound(.*)", component: () => import("@/views/NotFound.vue") },
   ],
   linkActiveClass: "active-link",
-  scrollBehavior(to , from , savedPosition) {
-    if (savedPosition) {
-      return {savedPosition}
-    } else {
-      return { x: 0, y: 0 }
-    }
-  },
 });
 router.afterEach((to, from, next) => {
     window.scrollTo(0, 0)
