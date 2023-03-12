@@ -25,6 +25,7 @@ export default {
             {nameLang : "SASS" , description : "Sass یک پیش‌پردازنده (Preproccesor) برای زبان CSS است. در واقع Sass آمده است تا محدودیت‌ها و ضعف‌های زبان CSS را جبران کند و با اضافه کردن ویژگی‌های جالبی به آن، نوشتن کد‌های CSS را راحت‌تر و سریع‌تر سازد." , iconImage : "sass-original" , skillLevel : "۵۰" , iconColor : "icon-pink2"},
             {nameLang : "VUE" , description : "Vue یا فریمورک ویو یک فریمورک برای زبان برنامه نویسی Javascript است . کاربرد vue.js برای ایجاد رابط کاربری دلپذیرتر و راحت تر در وب سایت ها میباشد . بطوری که با استفاده از Vue.js میتوانید وب سایتی پیاده کنید که تک صفحه ای باشد" , iconImage : "vuejs-original" , skillLevel : "۶۰", iconColor : "icon-green"},
             {nameLang : "REACT" , description : "React یک کتابخانه یا فریم‌ورک برای جاوا اسکریپت است که توسط فیس‌بوک توسعه داده شده است. این فریم ورک در طراحی رابط کاربری (UI – User Interface) کاربرد دارد و ابزاری برای ساخت اجزاء UI است." , iconImage : "React-icon.svg" , skillLevel : "۶۰", iconColor : "icon-sky-blue"},
+            {nameLang : "NEXT.JS" , description : "Next.js یک فریمورک وب برای توسعه برنامه‌های تحت وب پویا با React است که از قابلیت SSR و SSG پشتیبانی می‌کند و بهبود سرعت بارگذاری صفحات و بهینه‌سازی SEO را بهبود می‌بخشد." , iconImage : "next-js-icon" , skillLevel : "۶۰", iconColor : "icon-sky-gray"},
         ]
     }),
     components : {

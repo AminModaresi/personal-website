@@ -6,7 +6,7 @@
       </figure>
       <div class="aside-body__content">
         <h1 class="aside-body__title">امین مدرسی</h1>
-        <div class="aside-body__jobSide">Junior Front-end Developer</div>
+        <div class="aside-body__jobSide">Front-end Developer</div>
         <div class="aside-body__socialList">
           <a
             href="https://t.me/AminModaresii"
